@@ -1,3 +1,3 @@
-:winking_face:
+:⊛_shaking_face:
 
 1
