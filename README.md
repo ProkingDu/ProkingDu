@@ -1,4 +1,4 @@
 <div style="position:relative">
-<img src="./hello.png" style="width:50px;height: 50px;position: absolute">
-<span style="display: inline-block;line-height: 50px;position: absolute;left: 60px;">Oi!<b>Happy that you are looking me.</b></span>
+<img src="./hello.png" style="width:30px;height: 30px;position: absolute">
+<span style="display: inline-block;line-height: 30px;position: absolute;left: 35px;font-size: 26px">Oi!<b>Happy that you are looking me.</b></span>
 </div>
