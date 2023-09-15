@@ -1,1 +1,1 @@
-:winking_face_with_tongue:
+: hinking_face:
