@@ -2,8 +2,8 @@
         src="hello.png" height="32" /></h1>
 
 <div style="height:300px;display:flex;flex-direction:row;align-items: center;justify-content: center">
-    <img style="height:300px" src="https://github-readme-stats.vercel.app/api?username=ProkingDu">
-    <img style="height:300px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProkingDu&layout=compact">
+    <img style="height:200px" src="https://github-readme-stats.vercel.app/api?username=ProkingDu">
+    <img style="height:200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProkingDu&layout=compact">
 </div>
 <h1>About Me.</h1>
 
