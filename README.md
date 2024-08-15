@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm <a href="https://www.blackcater.win/" target="_blank">Proking Du</a> <img
         src="hello.png" height="32" /></h1>
 
-<div style="height:300px;display:flex;flex-direction:row;align-items: center;justify-content: center">
+<div style="height:200px;display:flex;flex-direction:row;align-items: center;justify-content: center;text-align:center">
     <img style="height:200px" src="https://github-readme-stats.vercel.app/api?username=ProkingDu">
     <img style="height:200px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProkingDu&layout=compact">
 </div>
