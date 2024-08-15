@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm <a href="https://www.blackcater.win/" target="_blank">Proking Du</a> <img
         src="hello.png" height="32" /></h1>
 
-
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ProkingDu)](https://github.com/anuraghazra/github-readme-stats)
 <h1>About Me.</h1>
 
 <cite>
