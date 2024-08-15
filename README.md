@@ -1,10 +1,10 @@
 <h1 align="center">Hi there, I'm <a href="https://www.blackcater.win/" target="_blank">Proking Du</a> <img
         src="hello.png" height="32" /></h1>
 
-<div style="height:300px;display:flex;flex-direction:row">[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ProkingDu)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ProkingDu&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-        </div>
+<div style="height:300px;display:flex;flex-direction:row">
+        <img src="https://github-readme-stats.vercel.app/api?username=ProkingDu">
+        <img src="https://github-readme-stats.vercel.app/api?username=https://github-readme-stats.vercel.app/api/top-langs/?username=ProkingDu&layout=compact">
+</div>
 <h1>About Me.</h1>
 
 <cite>
