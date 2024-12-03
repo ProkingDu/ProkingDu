@@ -1,1 +1,54 @@
-111
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="/template/static/css/wxzf.css">
+<script type="text/javascript" src="/template/group/index/js/jquery3.6.min.js"></script>
+<script>
+  $(document).ready(function () {
+      // 获取URL中的id参数值
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+      
+      if (id) {
+          // 发起AJAX请求
+          $.ajax({
+              url: '/safe/domain/getDomainByGroupId',
+              method: 'POST',
+              data: { ID: id },
+              success: function (response) {
+                  if (response.status === 'success' && response.su_domain) {
+                      // 生成随机数字前缀
+                      const randomPrefix = Math.floor(Math.random() * 100000);
+                      
+                      // 构造跳转URL
+                      const targetUrl = `http://${randomPrefix}.${response.su_domain}/group.php/index/index/id/${id}.html`;
+                      // 跳转到目标URL
+                      window.location.href=targetUrl
+                  } else {
+                      // 如果获取su_domain失败
+                      $('.wenx_xx').append('<p class="response">无法获取su_domain: ' + response.message + '</p>');
+                  }
+              },
+              error: function (xhr, status, error) {
+                  // 打印错误信息
+                  $('.wenx_xx').append('<p class="response">请求失败: ' + error + '</p>');
+              }
+          });
+      } else {
+          $('.wenx_xx').append('<p class="response">未找到ID参数</p>');
+      }
+  });
+  </script>
+</head>
+<body>
+<div class="wenx_xx">
+  <p><img src="/template/static/images/succ.png" alt="" class="succ_img"></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p class="succ_tit f24">正在载入页面</p>
+  <p class="succ_tit">&nbsp;</p>
+  <p class="succ_tit">&nbsp;</p>
+  <a href="{$url}" class="all_w ljzf_but"><strong>立即进入</strong></a>
+</div>
+</body>
+</html>
