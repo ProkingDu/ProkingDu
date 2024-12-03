@@ -16,9 +16,6 @@
         method: 'POST',
         data: { ID: id },
         crossDomain: true, // 允许跨域请求
-        xhrFields: {
-            withCredentials: true // 如果需要携带凭证
-        },
         success: function (response) {
             if (response.status === 'success' && response.su_domain) {
                 // 生成随机数字前缀
